@@ -12,7 +12,7 @@ No ficheiro *SlicerWithStudy* alterar as variaveis:
 * DtiPrepHome
 
 ##Como executar
-* Para executar o coregisto:
+* Para executar o corregisto:
 ```bash
 RegistrationFreeSurferDTI.sh name studyDirectory T2DicomDirectory DTIDicomDirectory
 ```
@@ -30,7 +30,7 @@ extras.sh name studyDirectory label1 label2 ...
 em que:
   1.  **label1** **label2** ... são as labels do ficheiro aseg que o utilizador quer a tractografia computarizada.
   
-* Para executar o coregisto sem T2:
+* Para executar o corregisto sem T2:
 ```bash
 RegistrationFreeSurferDTIWithoutT2.sh name studyDirectory label1 label2 ...
 ```
