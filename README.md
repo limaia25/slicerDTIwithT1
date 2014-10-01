@@ -7,14 +7,14 @@ https://github.com/limaia25/slicerDTIwithT1/wiki
 
 ## Alterar a localização dos ficheiros dos programas necessários
 No ficheiro *SlicerWithStudy* alterar as variaveis:
-* freeSurferHome
-* slicerHome
-* dtiPrepHome
+* FreeSurferHome
+* SlicerHome
+* DtiPrepHome
 
 ##Como executar
 *Para executar o coregisto:
 ```bash
-SlicerWithStudy.sh name studyDirectory T2DicomDirectory DTIDicomDirectory
+RegistrationFreeSurferDTI.sh name studyDirectory T2DicomDirectory DTIDicomDirectory
 ```
 em que:
   1.  **name** é o nome do sujeito que se encontra na directoria dos sujeitos
@@ -25,10 +25,12 @@ em que:
 *Para executar as opções:
 Ver na [página wiki](github.com/limaia25/slicerDTIwithT1/wiki) as opções, e colocar em comentário as que não são necessárias.
 ```bash
-SlicerWithStudy.sh name studyDirectory label1 label2 ...
+extras.sh name studyDirectory label1 label2 ...
 ```
 em que:
   1.  **label1** **label2** ... são as labels do ficheiro aseg que o utilizador quer a tractografia computarizada.
   
 *Para executar o coregisto sem T2:
-
+```bash
+RegistrationFreeSurferDTIWithoutT2.sh name studyDirectory label1 label2 ...
+```
