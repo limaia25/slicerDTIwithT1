@@ -23,7 +23,7 @@ em que:
   4.  **DTIDICOMDirectory** é a directroria T1 onde estão todos os ficheiros DICOM da acquisição DTI do scan
 
 * Para executar as opções:
-Ver na [página wiki](github.com/limaia25/slicerDTIwithT1/wiki) as opções, e colocar em comentário as que não são necessárias.
+Ver na [página wiki](https://github.com/limaia25/slicerDTIwithT1/wiki) as opções, e colocar em comentário as que não são necessárias.
 ```bash
 extras.sh name studyDirectory label1 label2 ...
 ```
